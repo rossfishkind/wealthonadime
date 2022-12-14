@@ -4,3 +4,15 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "/resources"
+  to = "https://www.beworthfinance.com/building-wealth-on-a-dime/resources"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/"
+  to = "https://www.beworthfinance.com/building-wealth-on-a-dime"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
