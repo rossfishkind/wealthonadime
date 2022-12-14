@@ -2,9 +2,6 @@
   command = "npm run build"
   publish = ".next"
 
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
 [[redirects]]
   from = "/resources"
   to = "https://www.beworthfinance.com/building-wealth-on-a-dime/resources"
